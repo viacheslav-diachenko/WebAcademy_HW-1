@@ -1,4 +1,4 @@
-	def greet(name, greeting="Привіт"):
+def greet(name, greeting="Привіт"):
     return f"{greeting}, {name}!"
 
 if __name__ == "__main__":
