@@ -1,5 +1,5 @@
-def greet(name):
-    return f"Привіт, {name}!"
+def greet(name, greeting="Привіт"):
+    return f"{greeting}, {name}!"
 
 if __name__ == "__main__":
     name = "Світ"
